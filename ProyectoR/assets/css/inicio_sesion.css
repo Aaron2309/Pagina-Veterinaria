@@ -1,0 +1,78 @@
+.navbar {
+
+    width: 100%;
+}
+
+#menu {
+    justify-content: end;
+    font-family: arial;
+}
+
+#Nombre {
+    color: #fff
+}
+
+#Nombre:hover {
+    color: adb5bd;
+}
+
+#páginas {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(240, 240, 240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+#colum {
+    width: 100%;
+    margin: 0%;
+    background-color: black;
+}
+
+.logeo{
+    background-color: #C6E377;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border: 1px solid black;
+    
+}
+#Imagen{
+    height: 90px;
+    margin-top: 50%;
+}
+.BotonEntrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Boton{
+    background-color: gray;
+    color: white;
+}
+
+@media(max-width: 825px){
+    .logeo{
+        height: 700px;
+        margin-bottom: 482px;
+    }
+}

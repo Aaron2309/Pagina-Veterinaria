@@ -1,0 +1,125 @@
+
+.navbar {
+
+    width: 100%;
+}
+#menu{
+    justify-content: end;
+    font-family:arial ;
+}
+#Nombre {
+    color: black
+    
+}
+
+#Nombre:hover {
+    color: adb5bd;
+}
+
+#páginas {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+}
+
+#Perro {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+#info {
+    background-color: #729D39;
+    width: 80%;
+    margin: 50px auto 40px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border-radius:1em;
+    -webkit-border-radius:1em;
+    -moz-border-radius:1em;
+    -ms-border-radius:1em;
+    -o-border-radius:1em;
+    color: #fff;
+}
+
+#colum {
+    width: 100%;
+    margin: 0%;
+    background-color: black;
+}
+
+.card {
+    background-color: #E9967A;
+}
+
+.Imagen-abajo {
+    display: flex;
+    background-color: #E9967A;
+    justify-content: center;
+    align-items: center;
+}
+
+#Veterinaria {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(240, 240, 240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+#Contactenos{
+    background-color: #729D39;
+    border-color: white;
+    color: white;
+}
+.Botoncontacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.container{
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+}
+
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+#imagen{
+    width: 80%;
+    margin-left: 10%;
+}
+

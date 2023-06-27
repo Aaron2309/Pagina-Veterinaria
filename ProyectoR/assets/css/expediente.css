@@ -1,0 +1,98 @@
+body{
+    background-color: #e0ccc5;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#hijo{
+    background-color: coral;
+    padding: 150px;
+    margin: 30px;
+    margin-left: 15%;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#texto{
+    text-align: left;
+    display: inline-block
+}
+
+#imagen{
+  float: right;  
+}
+
+#button{
+    padding: 3px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+
+.modal-contenido{
+    background-color: #fff;
+    width:600px;
+    height: 300px;
+    margin: 20% auto;
+    position: relative;
+    border-radius: 8px;
+    bottom: 80px;
+}
+
+.modal-contenido header{
+    padding: 10px;
+    background-color: burlywood;
+    color: brown;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-contenido a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: brown;
+    font-size: 15px;
+}
+.modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+}
+
+#miModal:target{
+    opacity:1;
+    pointer-events:auto;
+}
+
+#perro2{
+    position: absolute;
+    bottom: 120px;
+    left: 300px;
+    width: 150px;
+    height: 100px;
+}

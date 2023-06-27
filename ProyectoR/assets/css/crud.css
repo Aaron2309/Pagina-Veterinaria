@@ -1,0 +1,214 @@
+body{
+    background-color: #FBFAD3;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #989898;
+    text-align: left;
+    padding: 8px;
+}
+.contenedor{
+    padding: 50px;
+}
+
+button{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    width: 200px;
+    float: right;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+#encabezado{
+    background-color: #729D39;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h2{
+    letter-spacing: 2px;
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+}
+h1{
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #C6E377;
+}
+
+@media(max-width: 715px){
+    table {
+        border: 0;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+  
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+  
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+  
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+  
+    table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+  
+    table td:last-child {
+        border-bottom: 0;
+    }
+
+
+}
+
+.modal-contenido{
+    background-color: #fff;
+    width:600px;
+    height: 500px;
+    margin: 20% auto;
+    position: relative;
+    border-radius: 8px;
+    bottom: 80px;
+    transition: all 500ms ease;
+    transform: translateY(-30%);
+}
+
+.modal-contenido header{
+    padding: 10px;
+    background-color: burlywood;
+    color: brown;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-contenido a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: brown;
+    font-size: 15px;
+
+}
+.modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 500ms ease;
+}
+
+
+form{
+    text-align: center;
+}
+.boton{
+    margin-top: 15px;
+}
+
+#modal-contenidoD{
+    width:600px;
+    height: 800px;
+}
+#modal-contenidoM, #modal-contenidoV{
+    width:600px;
+    height: 600px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#pie{
+    background-color: #729D39;
+    height: 10%;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Regresar{
+    background-color: #D9D9D9;
+    border-color: black;
+    color: black;
+}
+.BotonRegresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pie_modif{
+    background-color: #729D39;
+    height: 10%;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#encabezado_modif{
+    background-color: #729D39;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modif{
+    justify-content: center;
+}
+#Info{
+    text-align: center;
+}
+
+#encabezado{
+    text-align: center;
+}
